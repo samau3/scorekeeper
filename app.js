@@ -41,6 +41,7 @@ function reset() {
         p.display.textContent = p.score
         p.display.classList.remove("has-text-success", "has-text-danger")
         p.button.disabled = false
+        max = parseInt(maxPts.value)
     }
 }
 
